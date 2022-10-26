@@ -4,11 +4,22 @@
 import type { NextPage } from 'next'
 import { BaseLayout, NftItem, NftList } from '@ui';
 import nfts from "../content/meta.json";
-import { NftMeta } from '@_types/nft';
+import { NftMeta } from '../types/nft';
 import { useWeb3 } from '@providers/web3';
 
 const Home: NextPage = () => {
-  // const {test} = useWeb3();
+   const { provider } = useWeb3();
+
+   const getAccounts = async () => {
+     const accounts = await provider!.listAccounts();
+     console.log(accounts[0]);
+    }
+
+   if (provider) {
+    getAccounts();
+   }
+
+
   return (
     <BaseLayout>
 
