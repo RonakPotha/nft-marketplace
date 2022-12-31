@@ -116,7 +116,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -135,7 +136,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -159,7 +161,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -172,7 +175,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -191,7 +195,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -279,7 +284,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -292,7 +298,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -311,7 +318,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -12424,12 +12432,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x335998dEAe827A97B1Ce137c9Eff8E6FdeE1f56e",
-      "transactionHash": "0xd4935f5179f6fb0e4946f00f2272eea20d38e5d026b54ffd5a8f49e294368d41"
+      "address": "0xbc803FCfC35819eE1dFe9Eff6a583f4507F92144",
+      "transactionHash": "0xa9acbb5d8add3745e835b13dd06d433e905d61da5b9616288b37430317e7cb0f"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-10-26T19:19:40.163Z",
+  "updatedAt": "2022-10-26T19:59:41.729Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {
